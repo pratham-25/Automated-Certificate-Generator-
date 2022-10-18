@@ -20,7 +20,9 @@ Please find your Certificate of appreciation attached below.
 '''
 #The mail addresses and password
 sender_address = 'edummy610@gmail.com'
-sender_pass = 'dummy_1234'
+# sender_pass = 'dummy_1234'
+sender_pass = 'rbumfdxlufnliqsw'
+
 with open('data.csv',encoding = 'utf-8') as file:
     reader = csv.reader(file)
     emails = []
