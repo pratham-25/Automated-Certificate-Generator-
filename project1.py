@@ -1,6 +1,5 @@
 from PIL import Image, ImageDraw, ImageFont
 import pandas as pd
-import os
 df = pd.read_csv('data.csv')
 font = ImageFont.truetype('arial.ttf',60)
 for index,j in df.iterrows():
